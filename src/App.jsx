@@ -1,11 +1,11 @@
+import Header from "./Components/Header";
 import NavBar from "./Components/NavBar"
-import React from 'react';
-
 
 const App = () => {
   return (
-    <div>
+    <div className="w-full overflow-hidden">
       <NavBar/>
+      <Header/>
     </div>
   )
 }

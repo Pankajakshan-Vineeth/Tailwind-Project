@@ -2,7 +2,7 @@ import { assets } from "../assets/assets";
 
 const NavBar = () => {
   return (
-    <div className="absolute top-0 left-0 w-full z-10 bg-amber-400">
+    <div className="absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 py-6  md:px-20 lg:px-32">
         <img src={assets.logo} alt="" />
         <ul className="hidden md:flex gap-7 text-white">
