@@ -24,7 +24,7 @@ const NavBar = () => {
           <a href="#Header" className="cursor-pointer hover:text-gray-400">
             Home
           </a>
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="#About" className="cursor-pointer hover:text-gray-400">
             About
           </a>
           <a href="#Header" className="cursor-pointer hover:text-gray-400">
@@ -43,7 +43,7 @@ const NavBar = () => {
           }}
           src={assets.menu_icon}
           alt=""
-          className="md:hidden w-7"
+          className="md:hidden w-7 mr-3"
         />
       </div>
 
