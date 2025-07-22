@@ -1,8 +1,14 @@
+import { motion } from "framer-motion";
+
 const Contact = () => {
   return (
-    <div
+    <motion.div
       className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
       id="Contact"
+      initial={{ opacity: 0, x: -200 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1.5 }}
+      viewport={{ once: true, amount: 0.3 }}
     >
       <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
         Contact{" "}
@@ -49,7 +55,7 @@ const Contact = () => {
           Send Message
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 
